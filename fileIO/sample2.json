@@ -1,0 +1,20 @@
+{
+    "age": 25,
+    "category": {
+        "pattern": "HELLO",
+        "template": "Hi there! How can I help you today?"
+    },
+    "examples": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning"
+    ],
+    "isTeacher": true,
+    "name": "Sanju",
+    "tags": [
+        "greeting",
+        "casual",
+        "friendly"
+    ]
+}
