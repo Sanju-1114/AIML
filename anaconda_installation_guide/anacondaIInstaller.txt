@@ -1,0 +1,7 @@
+open
+
+anaconda.com/download
+
+signup or signin then download according to your machine
+
+Then allow the permissions and then launch anaconda navigator
