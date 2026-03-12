@@ -36,3 +36,41 @@ VALUES
 (4, 17, "Donald", "donald@gmail.com", 200, 105);
 
 SHOW * FROM users;
+
+-- update table 
+UPDATE users
+SET followers = 600
+WHERE age = 16;
+
+-- if you are using update command first time in SQL 
+SET SQL_SAFE_UPDATES = 0;
+
+
+-- delete query
+DELETE FROM users
+WHERE age = 14;
+
+-- ALTER query
+-- 1. ADD column
+ALTER TABLE users
+ADD COLUMN city VARCHAR(25) DEFAULT "Lucknow";
+
+-- 2. DROP/DELETE column
+ALTER TABLE users
+DROP COLUMN age;
+
+-- 3. RENAME TABLE
+ALTER TABLE users
+RENAME TO instaUsers;
+
+-- 4. CHANGE column (RENAME)
+ALTER TABLE users
+CHANGE COLUMN followers subs INT DEFAULT 0;
+
+-- 5. MODIFY COLUMN 
+ALTER TABLE users
+MODIFY subs INT DEFAULT 5;
+
+
+-- TRUNCATE - delete the tables data
+TRUNCATE TABLE users;
