@@ -1,3 +1,5 @@
 This Repo for AILM.
 
-First cover the basics of Python which is very important for AIML
+First cover the basics of Python which is very important for AIML.
+
+Work with Anaconda.
